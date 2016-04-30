@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ACBC7521CD462FE00E2B87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */; };
+		9ACBC7541CD462FE00E2B87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBC7531CD462FE00E2B87F /* Assets.xcassets */; };
+		9ACBC7571CD462FE00E2B87F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBC7551CD462FE00E2B87F /* MainMenu.xib */; };
+		9ACBC7621CD462FE00E2B87F /* Huawei_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBC7611CD462FE00E2B87F /* Huawei_BarTests.swift */; };
+		9ACBC76D1CD462FE00E2B87F /* Huawei_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBC76C1CD462FE00E2B87F /* Huawei_BarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACBC75E1CD462FE00E2B87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACBC7461CD462FE00E2B87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACBC74D1CD462FE00E2B87F;
+			remoteInfo = "Huawei Bar";
+		};
+		9ACBC7691CD462FE00E2B87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACBC7461CD462FE00E2B87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACBC74D1CD462FE00E2B87F;
+			remoteInfo = "Huawei Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ACBC74E1CD462FE00E2B87F /* Huawei Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huawei Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ACBC7531CD462FE00E2B87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ACBC7561CD462FE00E2B87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9ACBC7581CD462FE00E2B87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACBC75D1CD462FE00E2B87F /* Huawei BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huawei BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACBC7611CD462FE00E2B87F /* Huawei_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huawei_BarTests.swift; sourceTree = "<group>"; };
+		9ACBC7631CD462FE00E2B87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACBC7681CD462FE00E2B87F /* Huawei BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huawei BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACBC76C1CD462FE00E2B87F /* Huawei_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huawei_BarUITests.swift; sourceTree = "<group>"; };
+		9ACBC76E1CD462FE00E2B87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ACBC74B1CD462FE00E2B87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC75A1CD462FE00E2B87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC7651CD462FE00E2B87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ACBC7451CD462FE00E2B87F = {
+			isa = PBXGroup;
+			children = (
+				9ACBC7501CD462FE00E2B87F /* Huawei Bar */,
+				9ACBC7601CD462FE00E2B87F /* Huawei BarTests */,
+				9ACBC76B1CD462FE00E2B87F /* Huawei BarUITests */,
+				9ACBC74F1CD462FE00E2B87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ACBC74F1CD462FE00E2B87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBC74E1CD462FE00E2B87F /* Huawei Bar.app */,
+				9ACBC75D1CD462FE00E2B87F /* Huawei BarTests.xctest */,
+				9ACBC7681CD462FE00E2B87F /* Huawei BarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACBC7501CD462FE00E2B87F /* Huawei Bar */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */,
+				9ACBC7531CD462FE00E2B87F /* Assets.xcassets */,
+				9ACBC7551CD462FE00E2B87F /* MainMenu.xib */,
+				9ACBC7581CD462FE00E2B87F /* Info.plist */,
+			);
+			path = "Huawei Bar";
+			sourceTree = "<group>";
+		};
+		9ACBC7601CD462FE00E2B87F /* Huawei BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBC7611CD462FE00E2B87F /* Huawei_BarTests.swift */,
+				9ACBC7631CD462FE00E2B87F /* Info.plist */,
+			);
+			path = "Huawei BarTests";
+			sourceTree = "<group>";
+		};
+		9ACBC76B1CD462FE00E2B87F /* Huawei BarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBC76C1CD462FE00E2B87F /* Huawei_BarUITests.swift */,
+				9ACBC76E1CD462FE00E2B87F /* Info.plist */,
+			);
+			path = "Huawei BarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ACBC74D1CD462FE00E2B87F /* Huawei Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACBC7711CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei Bar" */;
+			buildPhases = (
+				9ACBC74A1CD462FE00E2B87F /* Sources */,
+				9ACBC74B1CD462FE00E2B87F /* Frameworks */,
+				9ACBC74C1CD462FE00E2B87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huawei Bar";
+			productName = "Huawei Bar";
+			productReference = 9ACBC74E1CD462FE00E2B87F /* Huawei Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ACBC75C1CD462FE00E2B87F /* Huawei BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACBC7741CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarTests" */;
+			buildPhases = (
+				9ACBC7591CD462FE00E2B87F /* Sources */,
+				9ACBC75A1CD462FE00E2B87F /* Frameworks */,
+				9ACBC75B1CD462FE00E2B87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACBC75F1CD462FE00E2B87F /* PBXTargetDependency */,
+			);
+			name = "Huawei BarTests";
+			productName = "Huawei BarTests";
+			productReference = 9ACBC75D1CD462FE00E2B87F /* Huawei BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ACBC7671CD462FE00E2B87F /* Huawei BarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACBC7771CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarUITests" */;
+			buildPhases = (
+				9ACBC7641CD462FE00E2B87F /* Sources */,
+				9ACBC7651CD462FE00E2B87F /* Frameworks */,
+				9ACBC7661CD462FE00E2B87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACBC76A1CD462FE00E2B87F /* PBXTargetDependency */,
+			);
+			name = "Huawei BarUITests";
+			productName = "Huawei BarUITests";
+			productReference = 9ACBC7681CD462FE00E2B87F /* Huawei BarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ACBC7461CD462FE00E2B87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WisdomSky;
+				TargetAttributes = {
+					9ACBC74D1CD462FE00E2B87F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9ACBC75C1CD462FE00E2B87F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9ACBC74D1CD462FE00E2B87F;
+					};
+					9ACBC7671CD462FE00E2B87F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9ACBC74D1CD462FE00E2B87F;
+					};
+				};
+			};
+			buildConfigurationList = 9ACBC7491CD462FE00E2B87F /* Build configuration list for PBXProject "Huawei Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ACBC7451CD462FE00E2B87F;
+			productRefGroup = 9ACBC74F1CD462FE00E2B87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACBC74D1CD462FE00E2B87F /* Huawei Bar */,
+				9ACBC75C1CD462FE00E2B87F /* Huawei BarTests */,
+				9ACBC7671CD462FE00E2B87F /* Huawei BarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ACBC74C1CD462FE00E2B87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACBC7541CD462FE00E2B87F /* Assets.xcassets in Resources */,
+				9ACBC7571CD462FE00E2B87F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC75B1CD462FE00E2B87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC7661CD462FE00E2B87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ACBC74A1CD462FE00E2B87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACBC7521CD462FE00E2B87F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC7591CD462FE00E2B87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACBC7621CD462FE00E2B87F /* Huawei_BarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACBC7641CD462FE00E2B87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACBC76D1CD462FE00E2B87F /* Huawei_BarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACBC75F1CD462FE00E2B87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACBC74D1CD462FE00E2B87F /* Huawei Bar */;
+			targetProxy = 9ACBC75E1CD462FE00E2B87F /* PBXContainerItemProxy */;
+		};
+		9ACBC76A1CD462FE00E2B87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACBC74D1CD462FE00E2B87F /* Huawei Bar */;
+			targetProxy = 9ACBC7691CD462FE00E2B87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ACBC7551CD462FE00E2B87F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACBC7561CD462FE00E2B87F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ACBC76F1CD462FE00E2B87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ACBC7701CD462FE00E2B87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9ACBC7721CD462FE00E2B87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ACBC7731CD462FE00E2B87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei Bar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-Bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ACBC7751CD462FE00E2B87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huawei Bar.app/Contents/MacOS/Huawei Bar";
+			};
+			name = Debug;
+		};
+		9ACBC7761CD462FE00E2B87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei BarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-BarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huawei Bar.app/Contents/MacOS/Huawei Bar";
+			};
+			name = Release;
+		};
+		9ACBC7781CD462FE00E2B87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Huawei Bar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9ACBC7791CD462FE00E2B87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huawei BarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-BarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Huawei Bar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ACBC7491CD462FE00E2B87F /* Build configuration list for PBXProject "Huawei Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACBC76F1CD462FE00E2B87F /* Debug */,
+				9ACBC7701CD462FE00E2B87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACBC7711CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACBC7721CD462FE00E2B87F /* Debug */,
+				9ACBC7731CD462FE00E2B87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ACBC7741CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACBC7751CD462FE00E2B87F /* Debug */,
+				9ACBC7761CD462FE00E2B87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ACBC7771CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACBC7781CD462FE00E2B87F /* Debug */,
+				9ACBC7791CD462FE00E2B87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ACBC7461CD462FE00E2B87F /* Project object */;
+}
