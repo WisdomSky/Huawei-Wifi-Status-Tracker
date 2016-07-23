@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2A8C6F1CD4819A00F35B94 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A8C6E1CD4819A00F35B94 /* AEXML.swift */; settings = {ASSET_TAGS = (); }; };
+		9A3CEEC11CD5029E00AE490F /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CEEC01CD5029E00AE490F /* SimplePing.m */; settings = {ASSET_TAGS = (); }; };
 		9ACBC7521CD462FE00E2B87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */; };
 		9ACBC7541CD462FE00E2B87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBC7531CD462FE00E2B87F /* Assets.xcassets */; };
 		9ACBC7571CD462FE00E2B87F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBC7551CD462FE00E2B87F /* MainMenu.xib */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A2A8C6E1CD4819A00F35B94 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		9A3CEEBE1CD5021E00AE490F /* Huawei Bar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huawei Bar-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A3CEEBF1CD5029E00AE490F /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		9A3CEEC01CD5029E00AE490F /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		9ACBC74E1CD462FE00E2B87F /* Huawei Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huawei Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACBC7531CD462FE00E2B87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +99,10 @@
 		9ACBC7501CD462FE00E2B87F /* Huawei Bar */ = {
 			isa = PBXGroup;
 			children = (
+				9A3CEEBF1CD5029E00AE490F /* SimplePing.h */,
+				9A3CEEC01CD5029E00AE490F /* SimplePing.m */,
+				9A3CEEBE1CD5021E00AE490F /* Huawei Bar-Bridging-Header.h */,
+				9A2A8C6E1CD4819A00F35B94 /* AEXML.swift */,
 				9ACBC7511CD462FE00E2B87F /* AppDelegate.swift */,
 				9ACBC7531CD462FE00E2B87F /* Assets.xcassets */,
 				9ACBC7551CD462FE00E2B87F /* MainMenu.xib */,
@@ -181,6 +191,7 @@
 		9ACBC7461CD462FE00E2B87F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = WisdomSky;
 				TargetAttributes = {
@@ -248,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3CEEC11CD5029E00AE490F /* SimplePing.m in Sources */,
 				9ACBC7521CD462FE00E2B87F /* AppDelegate.swift in Sources */,
+				9A2A8C6F1CD4819A00F35B94 /* AEXML.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,11 +392,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Huawei Bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huawei Bar/Huawei Bar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -391,11 +407,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Huawei Bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wisdomsky.Huawei-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huawei Bar/Huawei Bar-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -470,6 +488,7 @@
 				9ACBC7731CD462FE00E2B87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACBC7741CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +497,7 @@
 				9ACBC7761CD462FE00E2B87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACBC7771CD462FE00E2B87F /* Build configuration list for PBXNativeTarget "Huawei BarUITests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +506,7 @@
 				9ACBC7791CD462FE00E2B87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
