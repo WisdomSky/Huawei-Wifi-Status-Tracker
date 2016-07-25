@@ -7,3 +7,6 @@ Features:
 * Battery level indicator
 * Mobile data status indicator
 * Unread SMS indicator
+
+
+![Screenshot](https://raw.githubusercontent.com/WisdomSky/Huawei-Wifi-Status-Tracker/master/screenshot.png)
